@@ -1,8 +1,8 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015/Debian) (preloaded format=platex 2016.6.20)  28 JUL 2016 16:05
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015/Debian) (preloaded format=platex 2016.6.20)  28 JUL 2016 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**sample
+**sample.tex
 (./sample.tex
 pLaTeX2e <2006/11/10> (based on LaTeX2e <2016/02/01> patch level 0)
 Babel <3.9n> and hyphenation patterns for 11 languages loaded.
@@ -99,7 +99,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen130
 \Gin@req@width=\dimen131
 )
-No file sample.aux.
+(./sample.aux)
 \openout1 = `sample.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -118,6 +118,7 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -184,17 +185,6 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 34.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 34.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 41.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 41.
-
-LaTeX Warning: Reference `fig1' on page 1 undefined on input line 41.
-
 File: fig.eps Graphic file (type eps)
 <fig.eps>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
@@ -212,21 +202,14 @@ Underfull \hbox (badness 2221) in paragraph at lines 78--79
 [1
 
 
-] (./sample.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./sample.aux) ) 
 Here is how much of TeX's memory you used:
- 1444 strings out of 494865
- 18753 string characters out of 6179769
- 83338 words of memory out of 5000000
- 4896 multiletter control sequences out of 15000+600000
- 14008 words of font info for 62 fonts, out of 8000000 for 9000
+ 1442 strings out of 494865
+ 18726 string characters out of 6179769
+ 83369 words of memory out of 5000000
+ 4893 multiletter control sequences out of 15000+600000
+ 13700 words of font info for 61 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 27i,8n,21p,214b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,8n,21p,218b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sample.dvi (1 page, 2440 bytes).
+Output written on sample.dvi (1 page, 2396 bytes).
